@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+body {
+    height: 100vh;
+    font-family: Verdana,sans-serif;
+}
+.controlPanelContainer {
+    background-image: url("https://images.unsplash.com/photo-1561715276-a2d087060f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controlPanelContainer h1 {
+    margin: 40px 0px 30px 0px;
+    color: #9DAFC3;
+    font-size: 40px;
+    text-shadow: 0px 0px 5px rgba(0,0,0,1);
+}
+.controlPanelContainer .mainButtonsContainer {
+    margin-bottom: 20px;
+}
+.controlPanelContainer .mainButtonsContainer button {
+    padding: 10px 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    color: #9DAFC3;
+    background-color: #223442;
+    margin-right: 10px;
+}
+.controlPanelContainer .blurBox {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    padding: 20px 0px;
+}
+.controlPanelContainer form {
+    width: 500px;
+}
+.controlPanelContainer h2 {
+    margin: 0px 0px 20px 0px;
+    color: #223442;
+}
+.controlPanelContainer form input {
+    border: none;
+    background-color: rgba(0,0,0,0.8);
+    width: 230px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+}
+.controlPanelContainer .formButtonsContainer {
+    margin: 20px 0px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.controlPanelContainer .formButtonsContainer span {
+    text-transform: capitalize;
+}
+.controlPanelContainer .formButtonsContainer button {
+    padding: 5px 10px;
+    text-transform: capitalize;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    color: #9DAFC3;
+    border: 3px solid #223442;
+    background-color: transparent;
+    color: black;
+}
+.controlPanelContainer button {
+    transition: 0.2s;
+}
+.controlPanelContainer button:hover {
+    filter: brightness(70%);
+    background-color: #223442;
+    color: white;
+}

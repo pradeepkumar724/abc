@@ -1,0 +1,163 @@
+* {
+    /* border: 1px solid red; */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    height: 100vh;
+    font-family: Roboto,Arial,sans-serif;
+}
+.productsContainer {
+    display: flex;
+    padding: 20px 0px;
+    overflow: scroll;
+}
+.eachProductContainer {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+}
+.eachProductContainer .imageContainer {
+    width: 150px;
+    height: 175px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eachProductContainer .image {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+.eachProductContainer .hoverImage {
+    object-fit: contain;
+}
+.eachProductContainer .title {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.eachProductContainer .shopNow {
+    color: rgb(0, 138, 0);
+    margin-bottom: 7px;
+}
+
+.showProductPage {
+    display: flex;
+    padding: 15px;
+}
+.imageContainer {
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showProductPage img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.showProductPage .contentContainer {
+    text-align: left;
+    padding: 0px 5px 0px 24px;
+}
+.showProductPage .grayBigText{
+    font-size: 16px;
+    margin: 12px 0px 5px 0px;
+    color: #878787;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.showProductPage .productTitle {
+    line-height: 1.4;
+    color: #212121;
+    font-size: 17px;
+    margin: 2px 0px;
+    font-weight: 600;
+}
+.showProductPage .greenText {
+    color: #26a541;
+    margin: 6px 0 -4px;
+    font-weight: 600;
+}
+.showProductPage .price {
+    font-size: 25px;
+    font-weight: 600;
+}
+.showProductPage .oldPrice {
+    font-size: 16px;
+    margin-left: 12px;
+    vertical-align: middle;
+    color: #878787;
+}
+.showProductPage .offPrice{
+    margin-left: 12px;
+    font-size: 16px;
+}
+.showProductPage .grayBoldText {
+    padding-left: 8px;
+    font-weight: 600;
+    color: #878787;
+    margin: 10px 0px 15px 0px;
+}
+.showProductPage .rating {
+    padding: 2px 7px;
+    border-radius: 14px;
+    font-size: 16px;
+    background-color: #26a541;
+    vertical-align: baseline;
+    color: white;
+}
+.showProductPage .boldText {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.showProductPage .offersText {
+    font-size: 14px;
+    margin: 5px 0px;
+    line-height: 1.5;
+    margin: 8px 0px;
+}
+.showProductPage .offersTitle {
+    color: #212121;
+    font-weight: 600;
+    padding-right: 4px;
+}
+.showProductPage .blueText {
+    color: #2874f0;
+    font-weight: 600;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.showProductPage .description {
+    line-height: 1.5;
+    font-size: 16px;
+}
+.showProductPage .buttonsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.showProductPage .buttonsContainer button {
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+    width: 49%;
+    display: inline-block;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.showProductPage .addToCart{
+    background-color: #ff9f00;
+}
+.showProductPage .buyNow {
+    background-color: #fb641b;
+}
